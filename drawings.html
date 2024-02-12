@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .current-page {
+            font-weight: bold; 
+            color:rgb(151, 16, 61);
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr, 1fr, 1fr;
+            grid-gap: 20px;
+            max-width: 1200px; 
+            padding: 20px;
+        }
+        main > div {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        p {
+            font-family: Arial, sans-serif; 
+        }
+        nav ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+        nav ul li {
+            display: inline; 
+        }
+        nav ul li a {
+            text-decoration: none;
+            padding: 5px 10px; 
+            margin-right: 10px; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="paintings.html">Paintings</a></li>
+                <li><a href="drawings.html"class="current-page">Drawings</a></li>
+                <li><a href="classwork.html">Classwork</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Drawings</h1>
+        <div>
+            <h2>Product Development</h2>
+        
+            <h3>Form Drawing</h3>
+            <img src="images/form drawing.jpg" width ="200" alt = "form drawing">
+            <P>medium: marker on paper</P>
+
+            <h3>Iterations</h3>
+            <img src="images/elephant sketch.png" width ="200" alt = "elephant sketch">
+            <P>medium: pen on paper</P>
+
+            <h3>Final Product</h3>
+            <img src="images/elephant teapot.png" width = "400" alt="elephant teapot">
+            <P>medium: colored pencil on paper</P>
+
+            <h3>Development stages </h3>
+            <ol type="a">
+                <li>understanding form</li>
+                <li>idea iteration</li>
+                <li>finished 2 point perspective propsal with orthographic drawing</li>
+            </ol>
+
+        </div>
+
+        <div>
+            <h2>Digital Art Series</h2>
+            <img src="images/digital.png" width = "400" alt="digital 1">
+            <img src="images/digital 2.jpg" width = "400" alt="digital 2">
+            <P>Program used: Procreate</P>
+        </div>
+
+        <div>
+            <h2>Colored Pencil</h2>
+            <h3>"A Poem for Small Things"</h3>
+            <img src="images/colored pencil 1.png" width = "400" alt="poem for small things">
+            <P>medium: colored pencil on paper</P>
+
+            <h3>Me-so Soup!</h3>
+            <img src="images/self portrait.png" width = "400" alt="self portrait">
+            <P>medium: colored pencil and collage on paper</P>
+        </div>
+
+    </main>
+    
+</body>
+</html>

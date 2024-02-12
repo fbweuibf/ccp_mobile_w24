@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .current-page {
+            font-weight: bold; 
+            color:  rgb(151, 16, 61);
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr, 1fr, 1fr;
+            grid-gap: 20px;
+            max-width: 1200px; 
+            padding: 20px;
+        }
+        main > div {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        p {
+            font-family: Arial, sans-serif; 
+        }
+        nav ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+        nav ul li {
+            display: inline; 
+        }
+        nav ul li a {
+            text-decoration: none;
+            padding: 5px 10px; 
+            margin-right: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="paintings.html">Paintings</a></li>
+                <li><a href="drawings.html">Drawings</a></li>
+                <li><a href="classwork.html"class="current-page">Classwork</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Classwork</h1>
+        <div>
+            <h2>Drawing & Observation</h2>
+            <h3>Nude croquis</h3>
+            <img src="images/nude watercolor.jpg" width = "350" alt="watercolor">
+            <img src="images/nude charcoal.jpg" width = "400" alt="charcoal">
+            <img src="images/nude colored pencil.jpg" width = "350" alt="nude">
+            <P>medium: watercolor, charcoal, colored pencil paper</P>
+            
+            <h3>Class Sketches</h3>
+            <img src="images/outline.jpg" width = "350" alt="outline">
+            <img src="images/glove.jpg" width = "500" alt="glove">
+            <P>medium: watercolor, charcoal, colored pencil on paper</P>
+        </div>
+
+        <div>
+            <h2>Methods of Inquiry</h2>
+            <h3>Taking Time Project</h3>
+            <img src="images/mbus.jpg" width = "400" alt="daily sketch 1">
+            <img src="images/party.jpg" width = "400" alt="daily sketch 2">
+            <img src="images/pocha.jpg" width = "400" alt="daily sketch 3">
+            <img src="images/alice lloyd view.jpg" width = "400" alt="daily sketch 4">
+
+            <P>Taking the time to document the memories of everyday life</P>
+            <P> mixed medium: marker, pen, colored pencil, oil pastel on paper</P>
+
+            <h3>Final Project</h3>
+            <img src="images/3d baby.jpg" width = "400" alt="main piece">
+            <img src="images/3d baby slide.jpg" width = "400" alt="opened version">
+            <img src="images/3d baby side.jpg" width = "400" alt="side view">
+            <img src="images/baby painting.jpg" width = "400" alt="underpainting">
+            <P>Based on a Times Square Article about the societal intricacies of donor parenthood and women's reproductive health.</P>
+            <P> mixed medium: paper mache sculpture with string over acrylic on canvas</P>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
